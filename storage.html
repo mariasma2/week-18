@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/storage.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <h1>Давай знакомиться</h1>
+        <div class="plus">1 шаг: выберите аватар<br/>
+            <img src="https://cdn-icons-png.flaticon.com/512/4599/4599017.png" id="ava" alt="ava1" width="60px">
+            <img src="https://cdn-icons-png.flaticon.com/512/4599/4599016.png" id="ava" alt="ava2" width="60px">
+            <img src="https://cdn-icons-png.flaticon.com/512/4599/4599024.png" id="ava" alt="ava3" width="60px">
+            <img src="https://cdn-icons-png.flaticon.com/512/4599/4599178.png" id="ava" alt="ava4" width="60px">
+        </div>
+        <form class="form">
+            <div class="plus">2 шаг: ваше имя
+                <br><input type="text" id="name" placeholder="Введите ваше имя">
+            </div>
+            <div>
+                <button type="button" id="save">Запомнить</button>
+                <button type="button" id="unsave">Не запоминать</button>
+            </div>
+            <div class="comment">
+                <p id="conteiner"></p>
+                <input type="text" class="none" id="text">
+                <button id="send" class="none" onclick="addComment()">Добавить комментарий</button>
+            </div>
+    </div>
+    <script src="/src/styles/storage.css"></script>
+</body>
+
+</html>
